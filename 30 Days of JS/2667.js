@@ -2,6 +2,7 @@
  * @return {Function}
  */
 var createHelloWorld = function() {
+    // (...args) means it can accept any number of arguments (rest parameter).
     return function(...args) {
         return "Hello World";
     };
